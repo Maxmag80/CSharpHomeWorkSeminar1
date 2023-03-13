@@ -5,6 +5,7 @@
 Console.WriteLine("Pls, input any integer number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int secondNumber = 0;
+num = Math.Abs(num);
 
 if (num >= 10)
 {

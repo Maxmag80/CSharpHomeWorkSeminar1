@@ -7,17 +7,11 @@ Console.WriteLine("Pls, input second number:");
 double num2 = Convert.ToDouble(Console.ReadLine());
 
 if (num1 == num2)
-{
     Console.WriteLine($"this numbers equal");
-}
 else
 {
     if (num1 > num2)
-    {
         Console.WriteLine($"Max = {num1}; Min = {num2}");
-    }
     else
-    {
         Console.WriteLine($"Max = {num2}; Min = {num1}");
-    }
 }
